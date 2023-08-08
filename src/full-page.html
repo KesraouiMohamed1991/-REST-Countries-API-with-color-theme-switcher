@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <title>flag of the word</title>
+  </head>
+
+  <body>
+    <main
+      class=" w-screen min-h-screen bg-slate-100 dark:bg-gray-800 dark:text-slate-300 font-med flex flex-col justify-"
+    >
+      <header
+        class="h-[8%] w-full md:w-[90%] bg-slate-50 dark:bg-gray-700 mx-auto flex justify-between items-center p-4 shadow-md"
+      >
+        <a href="#" id="refreshLink">
+          <div class="md:text-lg font-bold w-2/3">Where in the world?</div>
+        </a>
+
+        <div class="flex justify-end items-center">
+          <img
+            class="w-1/6 md:w-[10%] inline-block px-2 cursor-pointer dark-toggle"
+            src="../src/assets/dark.svg"
+            alt=""
+          />
+          <span class="inline-block dark:text-slate-100  ">Dark mode</span>
+        </div>
+      </header>
+
+      <section class="h-[91%] w-full md:w-[90%] mx-auto flex flex-col">
+        <div class="p-8">
+          <a href="./index.html">
+            <button
+              class="bg-slate-200 dark:bg-slate-600 hover:bg-slate-300 dark:hover:text-black dark:text-white text-black font-bold py-2 px-12 rounded backbtn"
+            >
+              Back
+            </button>
+          </a>
+        </div>
+
+        <!-- //this is the content -->
+
+        <div class="flex flex-col  lg:flex-row  h-2/3">
+          <div
+            class=" w-full h-2/4 mx-auto sm:h-[30%]   overflow-hidden"
+          >
+            <img
+              class=" h-full w-full countryIMG object-cover "
+              src="https://images.unsplash.com/photo-1607434472257-d9f8e57a643d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2344&q=80"
+              alt=""
+            />
+          </div>
+
+          <div class="h-full w-full sm:p-2  sm:w-full ">
+            <h1
+              class="text-2xl font-bold p-2 sm:px-8 text-center sm:text-start md:px-8 naming  sm:bg-transparent rounded-lg"
+            >
+              Belgium
+            </h1>
+
+            <div class="grid grid-cols-2 sm:grid-cols-2 sm:w-full lg:grid-cols-2  sm:py-8 ">
+              <div class="w-full h-full sm:p-8 p-4">
+                <span class="text-md font-semibold w-full my-1 block"
+                  >Native name:
+                  <span class="font-thin nativename"> Belgie</span>
+                </span>
+                <br />
+                <span class="text-md font-semibold my-1 block"
+                  >Population:&nbsp;<span class="font-thin population"> </span>
+                </span>
+                <br />
+                <span class="text-lg font-semibold my-1 block"
+                  >Region:&nbsp;
+                  <span class="font-thin continent"> &nbsp;Europe</span>
+                </span>
+                <br />
+                <span class="text-md font-semibold my-1 block"
+                  >Sub region:
+                  <span class="font-thin subcontinent">
+                    &nbsp;Western europe</span
+                  >
+                </span>
+                <br />
+                <span class="text-md font-semibold"
+                  >Capital:&nbsp;<span class="font-thin capitalCity">
+                    &nbsp;Brussels</span
+                  >
+                </span>
+              </div>
+
+              <div class="w-full h-full p-4 sm:p-8">
+                <span class="text- font-semibold w-full my-1 block"
+                  >Top level Domain:
+                  <span class="font-thin levelDomain">Be</span>
+                </span>
+                <br />
+                <span class="text-md font-semibold my-1 block"
+                  >Currencies: <span class="font-thin Currencies"> Euro</span>
+                </span>
+                <br />
+                <span class="text-md font-semibold w-full my-1 block"
+                  >Languages:
+                  <span class=" text-md font-thin Languages">
+                    Dutch, French, German</span
+                  > </span
+                ><br />
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col items-center sm:flex-row  py-5 w-full  sm:bg-transparent rounded-lg"
+            >
+              <span class="p-4 sm:px-8 py-8  text-md font-semibold block"
+                >Border Countries:
+              </span>
+              <div class=" btn-container px-4 py-4 sm:px-8 flex  flex-wrap sm:flex-row  ">
+   
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+    </main>
+    <script src="./full-page.js"></script>
+    <script src="./application.js"></script>
+  </body>
+</html>
